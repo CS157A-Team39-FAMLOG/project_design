@@ -45,18 +45,18 @@ household.
 							E/R Diagram 
 &emsp;
 ## Descriptions
-Through our application, any individual can create an Account with a unique
-accountName and a password for the respective household. Users are then created within the
-Account , representing the different individuals within that household.
+Through our application, any individual can create an *Account* with a unique
+*accountName* and a password for the respective household. *Users* are then created within the
+*Account*, representing the different individuals within that household.
 
-Each of the Users will have a unique name . Every one of the Users also has exactly one
-PersonalList which is identified by a unique userID .
+Each of the *Users* will have a unique *name*. Every one of the *Users* also has exactly one
+*PersonalList* which is identified by a unique *userID*.
 
-The entity PersonalList also contains the attribute itemName , the quantity requested, the
-priority of each item, and the attribute notes . This is representative of the individual shopping
-list, held by each owner of a household.
+The entity *PersonalList* also contains the attribute *itemName*, the *quantity* requested, the
+*priority* of each item, and the attribute *notes*. This is representative of the individual shopping
+list, held by each of the *Users* of a household.
 
-By default, the Account has exactly one PurchaseHistory , and each PurchaseHistory
-belongs to exactly one Account . Attributes of PurchasedHistory include the buyer of the item,
-the attribute itemName , the date of purchase, the price of each item, the quantity of the items
-bought, and the attribute belongsTo , which represents to whom’s list the Item belongs to.
+By default, the *Account* has exactly one *PurchaseHistory*, and each PurchaseHistory
+belongs to exactly one *Account*. Attributes of *PurchaseHistory* include the *buyer* of the item,
+the attribute *itemName*, the *date* of purchase, the *price* of each item, the *quantity* of the items
+bought, and the attribute *belongsTo*, which represents to whom’s list the *Item* belongs to.
