@@ -42,7 +42,7 @@ household.
 
 ![E/R Diagram](https://github.com/CS157A-Team39-FAMLOG/project_design/blob/master/Team39ERD.png)
 						
-									E/R Diagram 
+								E/R Diagram 
 &emsp;
 ## Descriptions
 Through our application, any individual can create an Account with a unique
