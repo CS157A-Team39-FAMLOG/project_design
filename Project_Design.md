@@ -40,7 +40,7 @@ household.
 ## E/R Diagram
 &nbsp;
 
-![E/R Diagram](https://github.com/CS157A-Team39-FAMLOG/project_design/blob/master/Team39ERD.png)
+![E/R Diagram](https://github.com/CS157A-Team39-FAMLOG/project_design/blob/master/ERD_final.png)
 						
 							E/R Diagram 
 &emsp;
